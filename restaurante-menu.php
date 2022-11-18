@@ -48,14 +48,30 @@
         ],
 
         "pastel-angu"=>[
-            "titulo"=>" ",
-            "ingredientes"=>"",
-            "tempo"=>"",
-            "sugestao"=>"",
+            "titulo"=>"PETISCO PASTEL DE ANGU TROPEIRO ",
+            "ingredientes"=>" Sabores banana, carne, queijo, frango com passas , milho e queijo",
+            "tempo"=>" Tempo médio de preparo 15 minutos",
+            "sugestao"=>" Prato harmoniza com caldo de cana com limão ou abacaxi",
         ],
-        "pernil-serro",
-        "sobremesa-inconfidentes",
-        "torta-ouropreto",
+        "pernil-serro"=>[
+            "titulo"=>"PRATO PERNIL AO MOLHO DE GOIABA DO SERRO ",
+            "ingredientes"=>"Pernil marinado por 24 horas em especiarias da casa, risoto de queijo do serro , com molho de goiaba ",
+            "tempo"=>" Tempo médio de preparo 45 minutos",
+            "sugestao"=>"Prato harmoniza com vinho branco seco ",
+        ],
+
+        "sobremesa-inconfidentes"=>[
+            "titulo"=>"SOBREMESA INCONFIDENTES ",
+            "ingredientes"=>"Sorvete de queijo artesanal, com geleia de goiaba e hortelã ",
+            "tempo"=>"Tempo médio de preparo 20 minutos ",
+            "sugestao"=>"prato harmoniza com soda limonada italiana",
+        ],
+        "torta-ouropreto"=>[
+            "titulo"=>"TORTA OURO PRETO",
+            "ingredientes"=>"Torta de chocolate amargo, com frutas vermelhas ",
+            "tempo"=>"Tempo médio de preparo 20 minutos",
+            "sugestao"=>"prato harmoniza soda italiana de maçã",
+        ],
         ];
 
     echo '<pre>';
@@ -109,11 +125,13 @@
                             <h2> <b>SOBREMESA INCONFIDENTES </b> </h2>
                             <p><i> Sorvete de queijo artesanal, com geleia de goiaba e hortelã</i> </p>
                             <p> Tempo médio de preparo 20 minutos</p>
+                            <p> prato harmoniza com soda limonada italiana</p>
 
                             <section id=" torta-ouropreto">
                                 <h2> <b>TORTA OURO PRETO</b> </h2>
                                 <p><i> Torta de chocolate amargo, com frutas vermelhas</i> </p>
                                 <p> Tempo médio de preparo 20 minutos</p>
+                                <p> prato harmoniza soda italiana de maçã</p>
 
                             </section>
 
