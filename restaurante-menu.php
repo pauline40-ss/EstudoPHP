@@ -20,18 +20,47 @@
             "sugestao" => "Prato harmoniza com vinho branco seco",
         ],
 
-        "tilapia-tabuleiro",
-        "costelinha-tiradentes",
-        "serra-caraca",
-        "frango-diamantina",
-        "pastel-angu",
+        "tilapia-tabuleiro"=> [
+            "titulo" => "PRATO TILÁPIA A MODA CACHOEIRA TABULEIRO",
+            "ingredientes" => " Filé de Tilápia no limão, acompanha salada de repolho com abacaxi e maçã e arroz branco ao alho ",
+            "tempo" => "Tempo médio de preparo 20 minutos ",
+            "sugestao" => "Prato harmoniza com vinho branco seco",
+        ],
+
+        "costelinha-tiradentes"=>[
+            "titulo"=>"PRATO COSTELINHA A MODA TIRADENTES ",
+            "ingredientes"=> " Costelinha banhada na cachaça, acompanha couve frita, lascas de mandioca com molho de pimenta biquinho ",
+            "tempo"=>"Tempo médio de preparo 40 minutos",
+            "sugestao"=>"Prato harmoniza com vinho suave ",
+        ],
+
+        "serra-caraca"=>[
+            "titulo"=>"PETISCO SERRA DO CARAÇA ",
+            "ingredientes"=>"Bolinho de arroz recheado com queijo e goiabada ",
+            "tempo"=>"Tempo médio de preparo 20 minutos",
+            "sugestao"=>"Prato harmoniza com vinho de jabuticada",
+        ],
+        "frango-diamantina"=>[
+            "titulo"=>"PRATO SURPRESA DIAMANTINA DE FRANGO ",
+            "ingredientes"=>"Bombom de frango, envolto em bacon e queijo banhado ao molho de mostarda e mel ",
+            "tempo"=>"Tempo médio de preparo 20 minutos",
+            "sugestao"=>" Prato harmoniza com vinho suave",
+        ],
+
+        "pastel-angu"=>[
+            "titulo"=>" ",
+            "ingredientes"=>"",
+            "tempo"=>"",
+            "sugestao"=>"",
+        ],
         "pernil-serro",
-        "sobremesa - inconfidentes",
+        "sobremesa-inconfidentes",
         "torta-ouropreto",
-    ];
-    echo "<pre>";
+        ];
+
+    echo '<pre>';
     print_r($pratos);
-    echo "</pre>";
+    echo '</pre>';
 
     ?>
     <section id="file-sabara">
